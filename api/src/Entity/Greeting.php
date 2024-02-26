@@ -2,14 +2,12 @@
 
 namespace App\Entity;
 
-use ApiPlatform\Metadata\ApiResource;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * This is a dummy entity. Remove it!
  */
-#[ApiResource(mercure: true)]
 #[ORM\Entity]
 class Greeting
 {
